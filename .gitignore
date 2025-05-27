@@ -1,0 +1,51 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore model files (optional – nếu model quá nặng hoặc lưu riêng)
+*.h5
+*.hdf5
+*.tflite
+*.pt
+*.onnx
+*.pb
+
+# Ignore logs and TensorBoard files
+*.log
+logs/
+events.out.tfevents.*
+
+# Ignore dataset files (nếu không muốn đẩy lên GitHub)
+data/
+datasets/
+*.zip
+*.tar.gz
+
+# Ignore OS / IDE-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore output figures (nếu sinh tự động)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Ignore result files
+*.csv
+*.json
+
+# Ignore Roboflow config/cache
+roboflow_config.json
+roboflow_cache/
