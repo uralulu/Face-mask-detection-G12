@@ -1,0 +1,9 @@
+tensorflow==2.14.0
+opencv-python
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+ultralytics
+tflite-runtime
