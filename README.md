@@ -16,14 +16,15 @@ Nghiêm Hồng Ngọc, Trần Ngọc Ánh, Đỗ Mai Phương, Trần Thanh Xuâ
 
 ## Cấu trúc thư mục
 
-
-├── data/ # Dữ liệu đầu vào (ảnh, annotation)
+├── preprocess_effnet.py # Code tiền xử lý dữ liệu cho mô hình EfficientNetB0
 
 ├── train_efficientnetb0.ipynb # Notebook huấn luyện mô hình ImageClassification (EfficientNetB0)
 
 ├── train_yolov8.ipynb # Notebook huấn luyện mô hình ImageClassification (EfficientNetB0)
 
-├── utils/ # Hàm hỗ trợ: vẽ ảnh, tính metrics...
+├── utils # Hàm hỗ trợ: vẽ ảnh, tính metrics...
+
+├── compare_models.ipynb # So sánh perfomance của 2 mô hình nhận diện
 
 ├── yolov8_realtime_camera.py # Mã nguồn demo mô hình YOLOv8 real-time 
 
