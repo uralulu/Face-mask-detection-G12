@@ -16,19 +16,16 @@ Nghiêm Hồng Ngọc, Trần Ngọc Ánh, Đỗ Mai Phương, Trần Thanh Xuâ
 
 ## Cấu trúc thư mục
 
-MaskDetection/
 
 ├── data/ # Dữ liệu đầu vào (ảnh, annotation)
 
-├── notebooks/ # Notebook huấn luyện mô hình
+├── train_efficientnetb0.ipynb # Notebook huấn luyện mô hình ImageClassification (EfficientNetB0)
 
-├── models/ # File model đã huấn luyện (.h5, .pt)
+├── train_yolov8.ipynb # Notebook huấn luyện mô hình ImageClassification (EfficientNetB0)
 
 ├── utils/ # Hàm hỗ trợ: vẽ ảnh, tính metrics...
 
-├── demo/ # Mã nguồn demo mô hình real-time
-
-├── report/ # Báo cáo, hình minh họa
+├── yolov8_realtime_camera.py # Mã nguồn demo mô hình YOLOv8 real-time 
 
 ├── requirements.txt # Thư viện cần cài đặt
 
