@@ -37,8 +37,7 @@ Nghiêm Hồng Ngọc, Trần Ngọc Ánh, Đỗ Mai Phương, Trần Thanh Xuâ
 
 ## Dữ liệu sử dụng
 
-- Dữ liệu **phân loại ảnh**: Lấy từ [Kaggle - Face Mask Detection](https://www.kaggle.com/datasets/andrewmvd/face-mask-detection)
-- Dữ liệu **phát hiện đối tượng**: Lấy từ [Roboflow - msk2](https://universe.roboflow.com/mask-zmvem/msk2/dataset/1)
+- Bộ dataset huấn luyện: Lấy từ [Kaggle - Face Mask Detection](https://www.kaggle.com/datasets/andrewmvd/face-mask-detection)
 
 ## Công nghệ sử dụng
 Python 3.10
