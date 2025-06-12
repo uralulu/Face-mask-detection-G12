@@ -20,9 +20,9 @@ Nghiêm Hồng Ngọc, Trần Ngọc Ánh, Đỗ Mai Phương, Trần Thanh Xuâ
 
 ├── train_efficientnetb0.ipynb # Notebook huấn luyện mô hình ImageClassification (EfficientNetB0)
 
-├── train_yolov8.ipynb # Notebook huấn luyện mô hình ImageClassification (EfficientNetB0)
+├── efficientnetb0-pretrained.ipynb # Notebook huấn luyện mô hình ImageClassification (EfficientNetB0)
 
-├── utils # Hàm hỗ trợ: vẽ ảnh, tính metrics...
+├── [Thư mục] face-mask-detector # xuất model và xây dựng app deploy mô hình ImageClassification (EfficientNetB0)
 
 ├── compare_models.ipynb # So sánh perfomance của 2 mô hình nhận diện
 
@@ -47,9 +47,9 @@ TensorFlow 2.x (EfficientNetB0)
 
 Ultralytics YOLOv8
 
-OpenCV, NumPy, Pandas, Matplotlib
+MediaPipe, OpenCV, NumPy, Pandas, Matplotlib
 
-TFLite, Roboflow, Google Colab
+HuggingFace, Roboflow, Kaggle, Google Colab
 
 ## Sản phẩm Demo
 
