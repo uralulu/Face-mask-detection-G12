@@ -11,45 +11,25 @@ Nghiêm Hồng Ngọc, Trần Ngọc Ánh, Đỗ Mai Phương, Trần Thanh Xuâ
 ## Mục tiêu
 
 - Phát hiện xem người trong ảnh/video có đeo khẩu trang hay không, hoặc đeo sai cách.
-- So sánh hiệu quả của hai hướng tiếp cận classification và detection.
-- Triển khai mô hình phát hiện thời gian thực, có khả năng ứng dụng trong các tình huống thực tế như cổng trường học, bệnh viện.
-
-## Cấu trúc thư mục
-
-├── preprocess_effnet.py # Code tiền xử lý dữ liệu cho mô hình EfficientNetB0
-
-├── train_efficientnetb0.ipynb # Notebook huấn luyện mô hình ImageClassification (EfficientNetB0)
-
-├── efficientnetb0-pretrained.ipynb # Notebook huấn luyện mô hình ImageClassification (EfficientNetB0)
-
-├── [Thư mục] face-mask-detector # xuất model và xây dựng app deploy mô hình ImageClassification (EfficientNetB0)
-
-├── compare_models.ipynb # So sánh perfomance của 2 mô hình nhận diện
-
-├── yolov8_realtime_camera.py # Mã nguồn demo mô hình YOLOv8 real-time 
-
-├── requirements.txt # Thư viện cần cài đặt
-
-├── README.md # Mô tả đề tài
-
-└── .gitignore # Bỏ qua các file không cần thiết
-
+- So sánh hiệu quả của hai hướng tiếp cận classification và detection. => đê ra hướng kết hợp: YOLOv8 xác định mặt, EfficientNetB0 nhận diện trạng thái
+- Triển khai mô hình trên webcam realtime, có khả năng ứng dụng trong các tình huống thực tế như cổng trường học, bệnh viện.
 
 ## Dữ liệu sử dụng
 
 - Bộ dataset huấn luyện: Lấy từ [Kaggle - Face Mask Detection](https://www.kaggle.com/datasets/andrewmvd/face-mask-detection)
 
 ## Công nghệ sử dụng
-Python 3.10
+Python
 
-TensorFlow 2.x (EfficientNetB0)
+TensorFlow
 
 Ultralytics YOLOv8
 
-MediaPipe, OpenCV, NumPy, Pandas, Matplotlib
+OpenCV, NumPy, Pandas, Matplotlib
 
 HuggingFace, Roboflow, Kaggle, Google Colab
 
 ## Sản phẩm Demo
 
-EfficientNetB0: https://huggingface.co/spaces/uralulu/face-mask-detector
+2 Mô hình riêng biệt: https://huggingface.co/spaces/uralulu/face-mask-detector
+Kết hợp: https://huggingface.co/spaces/uralulu/face-mask-detector-upgrade
