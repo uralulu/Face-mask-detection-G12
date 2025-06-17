@@ -1,9 +1,7 @@
-tensorflow==2.14.0
+gradio==4.29.0
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.1.0
 opencv-python
 numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-ultralytics
-tflite-runtime
+Pillow
